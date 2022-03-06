@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "I am not feeling good"
+      ],
+      "responses": [
+        "Hey! Welcome to the chat-box.",
+        "Hi there, what can I do for you?",
+        "Hey there,I am your mental health friend. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure!",
+        "See you later! Take care!"
+      ]
+    },
+    {
+      "tag": "abouts",
+      "patterns": [
+        "What do you do?",
+        "Who are you?",
+        "What are you here for?",
+        "What can you help me with?",
+        "Is anyone there?",
+        "Are you a real person?",
+        "Tell me about yourself!"
+      ],
+      "responses": [
+        "Thanks for asking! I am your mental health friend! I've been trained to support you through any issues you are dealing with. Want to tell me what's wrong? I'm all ears! Technically, I'm a computer that's been trained by a human to assist you, so I don't have real ears... But I like to think of myself as human!"
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I think I have anxiety",
+        "What is anxiety?",
+        "Tell me about anxiety",
+        "Can I have some information about anxiety?",
+        "How do I support a loved one with anxiety?",
+        "How do I fix my anxiety?"
+      ],
+      "responses": [
+        "Anxiety is very common! A lot of people struggle with it. Anxiety can happen when our brain is low on the hormones dopamine, serotonin, \noxytocin, and endorphin. But don't worry! I can teach you how to boost them so you feel better! Which one do you want to start with?"
+      ]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "I think I have depression",
+        "What is depression?",
+        "Tell me about depression",
+        "Can I have some information about depression?",
+        "How do I support a loved one with depression?",
+        "How do I fix my depression?"
+      ],
+      "responses": [
+        "Depression is something a lot of people experience. You are not alone! Depression can happen when our brain is low on the hormones dopamine, serotonin, oxytocin, and endorphin. But don't worry! I can teach you how to boost them so you feel better! Which one do you want to start with?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "joke",
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
