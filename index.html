@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Chat Bot</title>
-    <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/2453/premium/2453703.png?token=exp=1646478142~hmac=ef3d23811c9d4f6332dc858173f1e20e" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://cdn-icons.flaticon.com/png/512/2453/premium/2453703.png?token=exp=1646478142~hmac=ef3d23811c9d4f6332dc858173f1e20e"
+        type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css"
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -16,16 +19,16 @@
     <!-- Implemented navbar -->
     <nav class="navbar">
         <div id="trapezoid">
-          <a href="#Home" class="expandHome">Home</a>
-          <a href="#About" class="expandHome">About</a>
-          <a href="https://github.com/indicgenous/Health-chat-box" class="expandHome">GitHub Repo</a>
+            <a href="#Home" class="expandHome">Home</a>
+            <a href="#About" class="expandHome">About</a>
+            <a href="https://github.com/indicgenous/Health-chat-box" class="expandHome">GitHub Repo</a>
         </div>
     </nav>
 
     <div class="home" style="
     padding-left: 3%;
     padding-top: 1%;">
-        <img class= "homeImage"src="chill.webp" alt="chill image" style=" 
+        <img class="homeImage" src="chill.webp" alt="chill image" style=" 
         display: flexbox;
         size: auto;
         border-radius: 10%;
@@ -45,7 +48,7 @@
 
     <!--CHAT BAR-->
     <div class="chat-bar-collapsible">
-        <button id="chat-button" type="button" class="collapsible">Chat with me!
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
             <i id="chat-icon" style="color: rgb(192, 116, 199);" class="fa fa-fw fa-comments-o"></i>
         </button>
 
@@ -57,7 +60,8 @@
                         <!-- Messages -->
                         <div id="chatbox">
                             <h5 id="chat-timestamp"></h5>
-                            <p id="botStarterMessage" class="botText"><span>Hi, I'm your mental health friend.<br>I can help you boost your physical, social and mental health with suggestions.<br>How are you feeling today?</span></p>
+                            <p id="botStarterMessage" class="botText"><span> Hey , I'm your mental-health
+                                    friend.<br>What can I do for you ?<br>How are yoy feeling ?</span></p>
                         </div>
 
                         <!-- User input box -->
@@ -88,9 +92,11 @@
 
     </div>
 
- 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    <script src="chatbox.js"></script> 
+    <script src="responses.js"></script>
+    <script src="newchat.js"></script>
 </body>
+
 </html>
